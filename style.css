@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.hero-section {
+    background-color: #007bff;
+    color: white;
+    padding: 80px 0;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+.lead {
+    font-size: 1.25rem;
+    line-height: 1.75;
+}
+
+.lead strong {
+    font-weight: bold;
+    /* or 700 if it's not bold enough */
+}
+
+.logo {
+    max-width: 120px;
+    margin-bottom: 20px;
+}
+
+.divider {
+    width: 60px;
+    height: 4px;
+    background-color: #007bff;
+    margin: 40px auto;
+}
+
+section {
+    padding: 40px 0;
+}
+
+
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-top: 30px;
+}
+
+.section-alt {
+    background-color: #eef2f7;
+    padding: 60px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #6c757d;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.btn-light {
+    border: 2px solid #007bff;
+}
+
+.btn:hover {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 576px) {
+    .card-body {
+        padding: 20px;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+    }
+}
